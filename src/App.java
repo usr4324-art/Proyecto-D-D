@@ -7,6 +7,6 @@ public class App {
         Personaje mago = new Mago(80, 15, 5, 7, 100, 40);
 
         System.out.println("Hola, soy un guerrero con vida: " + ((Guerrero) guerrero).getVida() + " y furia: " + ((Guerrero) guerrero).getFuria());
-        System.out.println("Hola, soy un mago con vida: " + ((Mago) mago).getVida() + " y poder mágico: " + ((Mago) mago).getPoderMagico());
+        System.out.println("Hola, soy un mago con vida: " + ((Mago) mago).getMana() + " y poder mágico: " + ((Mago) mago).getPoderMagico());
     }
 }
