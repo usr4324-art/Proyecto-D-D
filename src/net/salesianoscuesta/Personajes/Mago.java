@@ -10,4 +10,12 @@ public class Mago extends Personaje {
         this.mana = mana;
         this.poderMagico = poderMagico;
     }
+
+    public int getMana() {
+        return mana;
+    }
+
+    public int getPoderMagico() {
+        return poderMagico;
+    }
 }
