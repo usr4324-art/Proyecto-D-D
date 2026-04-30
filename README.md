@@ -1,18 +1,17 @@
-## Getting Started
+## Proyecto D&D
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un pequeño proyecto para la clase de Programación.
 
-## Folder Structure
+## Estructura de carpetas
 
-The workspace contains two folders by default, where:
+Este espacio de trabajo contiene dos carpetas:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: carpeta de recursos
+- `lib`: carpeta de dependencias.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Los archivos compilados se almacenan en la carpeta `bin` por defecto.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Clases
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Para este proyecto se creó la clase "Personaje" como clase padre, de ella derivan las clases
+hijas "Mago" y "Guerrero"
