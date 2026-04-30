@@ -10,4 +10,12 @@ public class Guerrero extends Personaje {
         this.furia = furia;
         this.armadura = armadura;
     }
+
+    public int getFuria() {
+        return furia;
+    }
+
+    public int getArmadura() {
+        return armadura;
+    }
 }
