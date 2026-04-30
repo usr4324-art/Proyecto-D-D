@@ -1,5 +1,12 @@
+import net.salesianoscuesta.Personaje.Personaje;
+import net.salesianoscuesta.Personajes.*;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Personaje guerrero = new Guerrero(100, 20, 10, 5, 50, 30);
+        Personaje mago = new Mago(80, 15, 5, 7, 100, 40);
+
+        System.out.println("Hola, soy un guerrero con vida: " + ((Guerrero) guerrero).getVida() + " y furia: " + ((Guerrero) guerrero).getFuria());
+        System.out.println("Hola, soy un mago con vida: " + ((Mago) mago).getVida() + " y poder mágico: " + ((Mago) mago).getPoderMagico());
     }
 }
